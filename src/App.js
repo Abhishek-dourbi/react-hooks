@@ -1,4 +1,6 @@
 import './App.css';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Home from './Home';
 import UseEffect from './Hooks/UseEffect';
 import UseReducer from './Hooks/UseReducer';
 import UseState from './Hooks/UseState';
@@ -11,17 +13,22 @@ import UseCallback from './Hooks/UseCallback/UseCallback';
 
 function App() {
   return (
-    <div className="App">
-      {/* <UseState /> */}
-      {/* <UseReducer /> */}
-      {/* <UseEffect /> */}
-      {/* <UseRef /> */}
-      {/* <UseLayoutEffect /> */}
-      {/* <UseImperativeHandle /> */}
-      {/* <UseContext /> */}
-      {/* <UseMemo /> */}
-      <UseCallback />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Home />
+        <Routes>
+          <Route path="useEffect" element={<UseEffect />} />
+          <Route path="useState" element={<UseState />} />
+          <Route path="useReducer" element={<UseReducer />} />
+          <Route path="useRef" element={<UseRef />} />
+          <Route path="useLayoutEffect" element={<UseLayoutEffect />} />
+          <Route path="useImperativeHandle" element={<UseImperativeHandle />} />
+          <Route path="useContext" element={<UseContext />} />
+          <Route path="useMemo" element={<UseMemo />} />
+          <Route path="useCallback" element={<UseCallback />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

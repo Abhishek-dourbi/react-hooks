@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.header-logo {
+    width: 60px;
+    height: 40px;
+}
+.header-text {
+    font-size: large;
+    font-weight: bold;
+    font-size: 25px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    background-color: #E5E3C9;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: #D8D2CB;
+    color: #fff;
+}
+
+.active{
+    background-color: #AD8B73;
+    color: #fff;
+}
