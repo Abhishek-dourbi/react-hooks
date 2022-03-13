@@ -10,6 +10,7 @@ import UseImperativeHandle from './Hooks/UseImperativeHandle/UseImperativeHandle
 import UseContext from './Hooks/UseContext/UseContext';
 import UseMemo from './Hooks/UseMemo';
 import UseCallback from './Hooks/UseCallback/UseCallback';
+import CustomHook from './Hooks/CustomHook/CustomHook';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="useContext" element={<UseContext />} />
           <Route path="useMemo" element={<UseMemo />} />
           <Route path="useCallback" element={<UseCallback />} />
+          <Route path="customHook" element={<CustomHook />} />
         </Routes>
       </div>
     </BrowserRouter>

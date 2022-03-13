@@ -12,7 +12,7 @@ const Home = () => {
                 </Link>
                 <p className="header-text">Welcome To React Hooks</p>
             </div>
-            <ul>
+            <ul className="link-container">
                 <li><NavLink activeClassName="active" to="/useEffect">Use Effect</NavLink></li>
                 <li><NavLink activeClassName="active" to="/useState">Use State</NavLink></li>
                 <li><NavLink activeClassName="active" to="/useReducer">Use Reducer</NavLink></li>
@@ -22,6 +22,7 @@ const Home = () => {
                 <li><NavLink activeClassName="active" to="/useContext">Use Context</NavLink></li>
                 <li><NavLink activeClassName="active" to="/useMemo">Use Memo</NavLink></li>
                 <li><NavLink activeClassName="active" to="/useCallback">Use Callback</NavLink></li>
+                <li><NavLink activeClassName="active" to="/customHook">Custom Hook</NavLink></li>
             </ul>
         </div>
     )

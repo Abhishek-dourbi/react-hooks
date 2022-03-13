@@ -14,7 +14,7 @@
     font-weight: bold;
     font-size: 25px;
 }
-ul {
+.link-container {
     list-style: none;
     display: flex;
     justify-content: space-around;
