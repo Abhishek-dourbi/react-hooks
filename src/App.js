@@ -11,6 +11,7 @@ import UseContext from './Hooks/UseContext/UseContext';
 import UseMemo from './Hooks/UseMemo';
 import UseCallback from './Hooks/UseCallback/UseCallback';
 import CustomHook from './Hooks/CustomHook/CustomHook';
+import ReactMemo from './Components/ReactMemo/ReactMemo';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="useMemo" element={<UseMemo />} />
           <Route path="useCallback" element={<UseCallback />} />
           <Route path="customHook" element={<CustomHook />} />
+          <Route path="reactMemo" element={<ReactMemo />} />
         </Routes>
       </div>
     </BrowserRouter>

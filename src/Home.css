@@ -21,6 +21,11 @@
     margin: 50px 0;
     padding: 0;
 }
+.link-container li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
 ul li a{
     text-decoration: none;
     background-color: #E5E3C9;

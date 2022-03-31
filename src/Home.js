@@ -23,6 +23,7 @@ const Home = () => {
                 <li><NavLink activeClassName="active" to="/useMemo">Use Memo</NavLink></li>
                 <li><NavLink activeClassName="active" to="/useCallback">Use Callback</NavLink></li>
                 <li><NavLink activeClassName="active" to="/customHook">Custom</NavLink></li>
+                <li><NavLink activeClassName="active" to="/reactMemo">React Memo</NavLink></li>
             </ul>
         </div>
     )
