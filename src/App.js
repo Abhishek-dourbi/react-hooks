@@ -14,6 +14,7 @@ import CustomHook from './Hooks/CustomHook/CustomHook';
 import ReactMemo from './Components/ReactMemo/ReactMemo';
 import UseDeferredValue from './Hooks/UseDeferredValue/UseDeferredValue';
 import UseTransition from './Hooks/UseTransition';
+import UseId from './Hooks/UseId/UseId';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="reactMemo" element={<ReactMemo />} />
           <Route path="useDeferredValue" element={<UseDeferredValue />} />
           <Route path='useTransition' element={<UseTransition />} />
+          <Route path='useId' element={<UseId />} />
         </Routes>
       </div>
     </BrowserRouter>
