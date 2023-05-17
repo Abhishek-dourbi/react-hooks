@@ -12,6 +12,7 @@ import UseMemo from './Hooks/UseMemo';
 import UseCallback from './Hooks/UseCallback/UseCallback';
 import CustomHook from './Hooks/CustomHook/CustomHook';
 import ReactMemo from './Components/ReactMemo/ReactMemo';
+import UseDeferredValue from './Hooks/UseDeferredValue/UseDeferredValue';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="useCallback" element={<UseCallback />} />
           <Route path="customHook" element={<CustomHook />} />
           <Route path="reactMemo" element={<ReactMemo />} />
+          <Route path="useDeferredValue" element={<UseDeferredValue />} />
         </Routes>
       </div>
     </BrowserRouter>
