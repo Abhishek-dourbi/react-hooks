@@ -15,6 +15,7 @@ import ReactMemo from './Components/ReactMemo/ReactMemo';
 import UseDeferredValue from './Hooks/UseDeferredValue/UseDeferredValue';
 import UseTransition from './Hooks/UseTransition';
 import UseId from './Hooks/UseId/UseId';
+import UseSyncExternalStore from './Hooks/UseSyncExternalStore/UseSyncExternalStore';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="useDeferredValue" element={<UseDeferredValue />} />
           <Route path='useTransition' element={<UseTransition />} />
           <Route path='useId' element={<UseId />} />
+          <Route path='useSyncExternalStore' element={<UseSyncExternalStore />} />
         </Routes>
       </div>
     </BrowserRouter>
